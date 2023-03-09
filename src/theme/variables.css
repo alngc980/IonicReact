@@ -4,7 +4,7 @@ http://ionicframework.com/docs/theming/ */
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #d80b0f;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -74,6 +74,98 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto-Light.ttf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Robot';
+  src: url('./../fonts/Roboto-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Robot';
+  src: url('./../fonts/Roboto-Bold.ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Robot';
+  src: url('./../fonts/Roboto-Black.ttf');
+  font-style: normal;
+  font-weight: 900;
+}
+
+.wrapper {
+  padding: 50px;
+  position: relative;
+  top: 180px;
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  color: white;
+  top: 0px;
+}
+
+ion-grid {
+  position: relative;
+  top: 20px;
+}
+
+ion-row .button {
+  position: relative;
+  top: 10px;
+  height: 50px;
+}
+
+ion-row .button .btn-login {
+  background: #edf2f4;
+}
+
+ion-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+/* ion-image {
+  background-size: ;
+} */
+
+.image {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+.fondo {
+  /* height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  top: 20px; */
+  --background: url(./../images/trama.png) 0 0/100% 100% no-repeat;
+}
+
+.btn-crud {
+  text-align: center;
+}
+
+.btn-crud .btn-crud2 {
+  margin: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
